@@ -1,0 +1,357 @@
+body{ 
+margin:0 auto;
+/*margin-top:10px;
+margin-bottom: 10px;*/
+background: url('repeat/denim.png') repeat;
+}
+
+.header{ 
+  
+        background-color: #2C3E82;;
+        width:100%;
+        height:150px;
+        border-left: 2px solid #2C3E82;
+        border-right: 1px solid #2C3E82;
+}
+
+.navigacija{ 
+        width:15%;
+        min-height: 100%;
+        height:auto !important;
+        height:100%;
+        float:left;
+        list-style: none;
+        font-family: Palatino Linotype;
+        
+}
+
+.sadrzaj {
+        padding-left: 2em;
+        padding-top: 1em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+}
+.wrap_sadrzaj{
+        margin-left:15%;
+        width:85%;
+        min-height:100%;
+        height:auto !important;
+        height:100%;         
+        color: #071D70;
+        margin-bottom: 0;
+        background-color:#ffdc8d; 
+        border-left: 1px solid #2C3E82;
+        font-family: Palatino Linotype;
+        border-right: 1px solid #2C3E82;
+}
+
+.footer { 
+        clear:both;
+        width:100%;
+        height:100px;
+        background-color:#2C3E82;
+        border-left: 2px solid #2C3E82;
+        border-right: 1px solid #2C3E82;
+}
+
+.header h2{
+        color: #a67300;
+}
+
+h1{
+        font-family:Times New Roman;
+        color: #FFC540;
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 55px;
+	line-height: 44px;
+	letter-spacing: -4px;
+	font-weight: bold;
+}
+
+h2{
+        font-family:  Verdana;
+        color: #071D70;
+        font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.navigacija a{
+        text-decoration: none;
+        font-weight: bold;
+        color: #071D70;
+}
+.navigacija a:hover{
+        color: #3754c1;
+        padding: 10px;
+        border-radius: 10px;
+}
+.navigacija ul li{
+        margin-bottom: 12px;
+        list-style:none;
+        color: #61D7A4;
+}
+.navigacija ul{
+        overflow-wrap:break-word;
+}
+.navigacija nav{
+        width: 100%;
+        background-color: #ffcc5a;
+}
+
+.footer p{
+        display: table;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: #FFC540;
+        font-weight: bold;
+}
+
+.sekcija a{
+        padding:  10px 15px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #071D70;
+}
+
+.sekcija a:hover{
+        color: #3754c1;
+        background-color: #ffe4a6;
+        border-radius: 10px;
+}
+
+.sekcija nav{
+        width: 95%;
+        padding:  10px 10px;
+        margin-bottom: 1em;
+        list-style: none;
+        background-color: #ffd473;
+        border-bottom: 1px solid #2C3E82;
+        border-top: 1px solid #2C3E82;
+}
+
+.linkovi li a:hover{
+        color: #2C3E82;
+        background-color: transparent;
+}
+
+.linkovi li{
+        color:black;
+}
+
+.linkovi li a{
+        color: black;
+        text-decoration: none;
+}
+.tablica{
+        margin-left:auto; 
+        margin-right:auto;
+}
+
+#prijava{
+        width: 50%;
+        float:right;
+
+        border: 5px outset #6e84d6;
+        padding: 5px 5px 5px 5px;
+        margin: 0px 5px 5px 0px;
+        background-color: #ffd473;
+        text-align: left;
+        border-radius: 10px;
+}
+
+label{
+        font-weight: bold;
+        font-size: 13px;
+        font-family: Palatino Linotype;
+}
+input{
+        font-weight: bold;
+        font-size: 13px;
+        font-family: Palatino Linotype;
+        border-radius: 5px;
+}
+
+#registracija{
+        border: 5px outset #6e84d6;
+        padding: 5px 5px 5px 5px;
+        margin: 0px 5px 5px 0px;
+        background-color: #ffd473;
+        text-align: left;
+        border-radius: 10px;
+        width: 100%;
+        float:right;
+           
+}
+
+#registracija td textarea{
+        font-weight: bold;
+        font-size: 13px;
+        font-family: Palatino Linotype;
+        border-radius: 5px;
+}
+
+
+.dijagram {
+        width: 300px;
+        height: 250px;
+        opacity:0.65;
+}
+.galerija {
+        width: 20em;
+        height: 20em;
+        opacity:0.8;
+}
+.galerija:hover{
+
+        opacity:1.0;
+}
+.dijagramtab tr td{
+        border: 5px outset #6e84d6;
+        padding: 7px 7px 7px 7px;
+        background-color: #ffd473;
+        text-align: center;
+        border-radius: 10px;
+}
+.dijagramdiv{
+    overflow: auto;
+}
+
+.dijagram:hover{
+        opacity:1.0;
+}
+.valid{
+        border:0;
+        width: 88px;
+        height: 31px;
+}
+
+.crveno{
+        text-align: left;
+	color: #071d70;
+	font-weight: bold;
+	font-family: Palatino Linotype;
+}
+
+.inputklasa:focus{
+        background-color: #cccccc;
+	color: #2C3E82;
+}
+
+.borderzahover:hover{
+        border: 2px inset #4867d6;
+        font-weight: bold;
+        font-size: 13px;
+        font-family: Palatino Linotype;
+        border-radius: 5px;
+}
+
+.labele{
+     opacity: 0.3;
+}
+.labelaout{
+    opacity: 1.0;
+}
+
+.gumb{
+   background-color:#ffcc5a;
+   color: #071D70;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 13px;
+   font-family: Palatino Linotype;
+}
+
+.gumb2{
+   background-color:#ffd470;
+   color: #071d70;
+   border-radius: 5px;
+   padding: 2px;
+   margin: 5px;
+   font-size: 13px;
+   font-family: Palatino Linotype;
+}
+
+.gumb:disabled{
+    opacity: 0.6;
+    background-color: #FFC540;
+}
+
+
+#zivotopis{
+   margin-top: 3em;
+}
+
+.gumb:hover{
+    opacity: 0.8;
+    background-color: #FFC540;
+}
+
+
+.thumbs > li {
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  list-style: none;
+}
+
+.thumb {
+  display: block;
+  padding: 4px;
+  line-height: 20px;
+  border: 5px outset #6e84d6;
+
+        background-color: #ffd473;
+        text-align: center;
+        border-radius: 10px;
+         color: #555555;
+}
+
+.thumb > img {
+  display: block;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.loveshack {
+  width: 300px;
+}
+
+.all{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.samo{
+    width:100%;
+    height: 100%;
+    background: #ffcc5a;
+    border-left: 1px solid #2C3E82;
+}
+.buybuy{
+    position: relative;
+}
+.hidden{
+   clear: both;
+   color: transparent;
+}
+
+
+.header a{
+        color: #FFC540;
+        text-decoration: none;
+        float: right;
+        font-family:  Verdana;
+        font-size: 12px;
+	line-height: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+
+}
